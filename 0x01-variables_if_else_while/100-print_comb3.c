@@ -1,15 +1,15 @@
 #include <stdio.h>
 /**
-* main - Prints number between 00 to 89
+* main - Prints numbers between 00 to 89
 * Return: 0
 */
 int main(void)
 {
 	int i, e;
 
-	i = 48;
-	e = 48;
-
+	i =  48;
+	e =  48;
+	
 	while (e < 58)
 	{
 		i = 48;
@@ -23,7 +23,7 @@ int main(void)
 				{
 					break;
 				}
-				putchar(',')
+				putchar(',');
 				putchar(' ');
 			}
 			i++;
@@ -32,4 +32,4 @@ int main(void)
 	}
 	putchar('\n');
 	return (0);
-}}
+}

@@ -1,10 +1,9 @@
 #include "main.h"
-
 /**
- *print_times_table - print time table.
- * @n: integer.
- *Return:void.
- */
+* print_times_table - prints the time table.
+* @n: integer.
+* Return:void.
+*/
 void print_times_table(int n)
 {
 	int i, j, k;

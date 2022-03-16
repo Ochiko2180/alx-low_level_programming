@@ -22,4 +22,5 @@ int main(void)
 	}
 	printf("%u\n", k);
 	return (0);
+
 }

@@ -1,9 +1,9 @@
 #include "main.h"
 /**
-* print_numbers - print numbers between 0 to 9.
-* Return: no return.
+* print_numbers - prints numbers between 0 to 9.
+* Return: 0
 */
-void print_numbers(void)
+[Bvoid print_numbers(void)
 {
 	int ch;
 
@@ -13,5 +13,3 @@ void print_numbers(void)
 	}
 	_putchar('\n');
 }
-
-	

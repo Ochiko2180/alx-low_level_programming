@@ -5,17 +5,16 @@
 */
 int main(void)
 {
-	long int n, fp;
+	long i, number = 612852475143;
 
-	n = 612852475143;
-	for (fp = 2; fp <= n; fp++)
+	for (i  = 2; i <= number; i++)
 	{
-		if (n % fp == 0)
+		if (number % i == 0)
 		{
-			n /= fp;
-			fp--;
+			number = number / i;
+			i--;
 		}
 	}
-	printf("%ld\n", fp);
+	printf("%lu\n", i);
 	return (0);
 }

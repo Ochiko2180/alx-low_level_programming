@@ -1,21 +1,23 @@
 #include <stdio.h>
+#include <math.h>
 /**
-* main - main block
-* @void: no argument
+* main - Prints the largest prime number
 * Return: 0
 */
 int main(void)
 {
-	long i, number = 612852475143;
+	long x, maxf;
+	long number = 612852475143;
+	double square = sqrt(number);
 
-	for (i = 2; i <= number; i++)
+	for (x = 1; x <= square; x++)
 	{
-		if (number % i == 0)
+		if (number % x == 0)
 		{
-			number = number / i;
-			i--;
+			maxf = number / x;
 		}
 	}
-	printf(%lu\n", i);
+	printf (%ld\n", maxf);
+
 	return (0);
 }
